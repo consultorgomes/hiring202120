@@ -1,0 +1,54 @@
+.searchBarContainer {
+  width: 550px;
+}
+
+.searchBarIcon, .searchBarIcon--clear {
+  color: #FFFFFF;
+}
+
+.imageElement--cover {
+  object-fit: cover;
+}
+
+.productNameContainer {
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.listPrice {
+  padding: 0;
+  margin: 0;
+}
+
+.priceContainer {
+  padding: 20px 0;
+}
+
+.sellingPrice {
+  color: #59ff00;
+}
+
+.shippingContainer {
+  margin-top: 50px;
+  color: #FFFFFF;
+}
+
+
+.infoCardImageContainer, .infoCardTextContainer {
+  margin: 2% 5%;
+}
+
+.infoCardSubhead{
+  font-size: 1.2rem;
+}
+
+.infoCardButton {
+  border: solid 1px #eee;
+}
+
+.productImageTag {
+  height: 300px!important;
+  width: 600px!important;
+}
+

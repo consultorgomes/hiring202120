@@ -1,0 +1,7 @@
+.styledLinkContent {
+    font-weight: bold;
+}
+
+.styledLinkContent:hover {
+   color: #FF9D00;
+}

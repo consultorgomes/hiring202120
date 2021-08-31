@@ -1,0 +1,427 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aws",
+      "menu-item#devops",
+      "menu-item#news",
+      "menu-item#blogs"
+    ]
+  },
+  "menu-item#aws": {
+    "props": {
+      "id": "menu-item-aws",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/what-is-aws/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "O que é AWS?",
+        "text": "O que é AWS?"
+      }
+    }
+  },
+  "menu-item#devops": {
+    "props": {
+      "id": "menu-item-devops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/devops/what-is-devops/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "O que é DevOps?",
+        "text": "O que é DevOps?"
+      }
+    }
+  },
+  "menu-item#news": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/new/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      }
+    }
+  },
+  "menu-item#blogs": {
+    "props": {
+      "id": "menu-item-blogs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/blogs/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "Blogs",
+        "text": "Blogs"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-developersaws": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#developercenter",
+      "menu-item#sdks",
+      "menu-item#tools"
+    ]
+  },
+
+  "menu-item#developercenter": {
+    "props": {
+      "id": "menu-item-developercenter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/developer/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": true,
+        "tagTitle": "Desenvolvedor",
+        "text": "Desenvolvedor"
+      }
+    }
+  },
+
+  "menu-item#sdks": {
+    "props": {
+      "id": "menu-item-sdks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/developer/tools/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": true,
+        "tagTitle": "SDKs",
+        "text": "SDKs"
+      }
+    }
+  },
+
+  "menu-item#tools": {
+    "props": {
+      "id": "menu-item-tools",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/developer/tools/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": true,
+        "tagTitle": "Ferramentas",
+        "text": "Ferramentas"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-helpaws": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contact",
+      "menu-item#career",
+      "menu-item#support"
+    ]
+  },
+
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/contact-us/?nc1=f_m",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": true,
+        "tagTitle": "Entre em contato conosco",
+        "text": "Entre em contato conosco"
+      }
+    }
+  },
+
+  "menu-item#career": {
+    "props": {
+      "id": "menu-item-career",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.amazon.jobs/aws",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": true,
+        "tagTitle": "Carreiras na AWS",
+        "text": "Carreiras na AWS"
+      }
+    }
+  },
+
+  "menu-item#support": {
+    "props": {
+      "id": "menu-item-support",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/premiumsupport/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": true,
+        "tagTitle": "Visão geral do AWS Support",
+        "text": "Visão geral do AWS Support"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-resourcesaws": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#resourceaws",
+      "menu-item#training",
+      "menu-item#certification",
+      "menu-item#portfolio",
+      "menu-item#architecture",
+      "menu-item#partners"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#resourceaws-mobile",
+      "menu-item#developersaws-mobile",
+      "menu-item#helpaws-mobile"
+    ]
+  },
+
+  "menu-item#resourceaws-mobile": {
+    "props": {
+      "id": "menu-item-category-resourceaws",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/faqs/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": true,
+        "tagTitle": "Recursos da AWS",
+        "text": "Recursos da AWS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#resourceaws"]
+  },
+  "vtex.menu@2.x:submenu.accordion#resourceaws": {
+    "children": ["vtex.menu@2.x:menu#resourceaws-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#resourceaws-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#training",
+      "menu-item#certification",
+      "menu-item#portfolio",
+      "menu-item#architecture",
+      "menu-item#partners"
+    ]
+  },
+
+  "menu-item#developersaws-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Desenvolvedores na AWS",
+        "text": "Desenvolvedores na AWS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#developersaws"]
+  },
+  "vtex.menu@2.x:submenu.accordion#developersaws": {
+    "children": ["vtex.menu@2.x:menu#footer-developersaws-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-developersaws-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#developercenter",
+      "menu-item#sdks",
+      "menu-item#tools"
+    ]
+  },
+
+  "menu-item#helpaws-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#helpaws"]
+  },
+  "vtex.menu@2.x:submenu.accordion#helpaws": {
+    "children": ["vtex.menu@2.x:menu#footer-helpaws-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-helpaws-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#developercenter",
+      "menu-item#sdks",
+      "menu-item#tools"
+    ]
+  },
+
+  "menu-item#resourceaws": {
+    "props": {
+      "id": "menu-item-category-resourceaws",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/faqs/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": true,
+        "tagTitle": "Recursos da AWS",
+        "text": "Recursos da AWS"
+      }
+    }
+  },
+
+  "menu-item#training": {
+    "props": {
+      "id": "menu-item-training",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/training/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "Treinamento",
+        "text": "Treinamento"
+      }
+    }
+  },
+
+  "menu-item#certification": {
+    "props": {
+      "id": "menu-item-certification",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/training/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "Certificação",
+        "text": "Certificação"
+      }
+    }
+  },
+
+  "menu-item#portfolio": {
+    "props": {
+      "id": "menu-item-portfolio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/solutions/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "Porfólio da AWS",
+        "text": "Porfólio da AWS"
+      }
+    }
+  },
+
+  "menu-item#architecture": {
+    "props": {
+      "id": "menu-item-architecture",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/architecture/?nc1=f_cc",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "Centro de Arquitetura",
+        "text": "Centro de Arquitetura"
+      }
+    }
+  },
+
+  "menu-item#partners": {
+    "props": {
+      "id": "menu-item-partners",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://aws.amazon.com/pt/partners/?nc1=f_dr",
+        "target":"_blank",
+        "rel": "noreferrer noopener",
+        "noFollow": false,
+        "tagTitle": "Rede de parceiros da AWS",
+        "text": "Rede de parceiros da AWS"
+      }
+    }
+  }
+}

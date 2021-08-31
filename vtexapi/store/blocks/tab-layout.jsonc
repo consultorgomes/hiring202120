@@ -1,0 +1,73 @@
+{
+  "tab-layout#home": {
+    "children": ["tab-list#home", "tab-content#home","stack-layout#cta"],
+    "props": {
+      "blockClass": "menu",
+      "defaultActiveTabId": "menu1"
+    }
+  },
+
+  "tab-list#home": {
+    "children": []
+  },
+  
+  "tab-content#home": {
+  "children": ["tab-content.item#menu1"] 
+  },
+
+  "tab-content.item#menu1": {
+    "children": ["list-context.image-list#tab1", "flex-layout.row#shelf1"],
+    "props": {
+      "tabId": "menu1"
+    }
+  },
+ 
+  "flex-layout.row#shelf1": {
+   "children": ["list-context.product-list#home1"]
+},
+
+  "list-context.image-list#tab1": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 800,
+      "images": [
+        {
+          "image": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png",
+          "mobileImage": "https://raw.githubusercontent.com/g-filipe/sources/main/new-bn2-aws.png"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "stack-layout#cta": {
+    "children": ["link#cta"]
+  },
+
+    "link#cta": {
+    "props": {
+    "displayMode": "button",
+    "buttonProps": {
+      "variant": "primary",
+      "size": "large"
+    },
+    "href": "https://aws.amazon.com/pt/about-aws/",
+    "path": "/about-us",
+    "target":"_blank",
+    "rel": "noreferrer noopener",
+    "label": "Clique aqui e saiba mais sobre a AWS"
+    }
+  }
+}
+

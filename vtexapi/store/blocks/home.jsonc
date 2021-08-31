@@ -1,0 +1,132 @@
+{
+  "store.home": {
+    "blocks": ["slider-layout#home","tab-layout#home",  "rich-text", "info-card#1", "info-card#2", "info-card#3", "info-card#4", "flex-layout.row","rich-text#product", "search-result-layout.customQuery#home"]
+  },
+
+
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+      "rich-text": {
+      "props": {
+      "text": "**Confira as soluções da AWS**",
+      "font": "t-heading-2",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://digico.solutions/wp-content/uploads/2020/09/3-Security-Digico.png",
+      "headline": "Computação sem servidor",
+      "subhead": "Com a computação sem servidor, as tarefas de gerenciamento de infraestrutura, como provisionamento de capacidade e correção, são gerenciadas pela AWS, para que você possa se concentrar apenas em escrever códigos que atendam a seus clientes.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/serverless/?hp=tile&tile=solutions",
+      "textAlignment": "center"
+    }
+  },
+
+    "info-card#2": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://digico.solutions/wp-content/uploads/2020/09/6-AI-ready-Digico.png",
+      "headline": "Machine Learning",
+      "subhead": "A AWS oferece o mais amplo e detalhado conjunto de serviços de machine learning e infraestrutura de nuvem subjacente, colocando o machine learning ao alcance de todos os desenvolvedores, cientistas de dados e especialistas.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/machine-learning/?hp=tile&tile=solutions",
+      "textAlignment": "center"
+    }
+  },
+    "info-card#3": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://digico.solutions/wp-content/uploads/2020/09/1-Dev-Ops-Digico.png",
+      "headline": "Data lakes e análises na AWS",
+      "subhead": "Configurar e gerenciar data lakes envolve muitas tarefas manuais e demoradas, como carregar, transformar, proteger e auditar o acesso aos dados.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/big-data/datalakes-and-analytics/?hp=tile&tile=solutions",
+      "textAlignment": "center"
+    }
+  },
+
+      "info-card#4": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://digico.solutions/wp-content/uploads/2020/09/2-Architecture-setup-Digico.png",
+      "headline": "Armazenamento",
+      "subhead": "A AWS oferece uma linha completa de serviços para armazenar, acessar, controlar e analisar dados, permitindo reduzir os custos, aumentar a agilidade e acelerar a inovação. Selecione serviços de armazenamento de objetos, arquivos e blocos, bem como opções de backup e migração de dados, para estabelecer a base do seu ambiente de TI na nuvem.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/products/storage/?hp=tile&tile=solutions",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#product": {
+    "props": {
+      "text": "Conheça os produtos da AWS",
+      "font": "t-heading-2",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#aws", "search-result-layout.mobile"]
+  },
+  "search-result-layout.desktop#aws": {
+    "children": [
+      "search-content#aws"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#result": {
+    "children": [
+      "search-content#aws"
+    ]
+  },
+  "search-content#aws": {
+    "blocks": [
+      "gallery", "not-found"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf",
+      "GridSummary": "product-summary.shelf"
+    }
+  }
+
+}
+

@@ -1,0 +1,28 @@
+.flexRowContent--main-header {
+  background-color:transparent;
+  height: 85.5px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexRowContent--main-header-mobile {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: rgb (35,47,62);
+}
+
+.flexCol--pdp-left {
+  padding: 0 50px;
+}
+
+.flexCol--pdp-right {
+  padding: 10px 50px 0 0;
+  justify-content: start;
+}
+
+.flexRowContent--footer-row {
+  margin-top: 50px;
+  padding: 50px;
+}

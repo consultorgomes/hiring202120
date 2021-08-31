@@ -1,0 +1,21 @@
+.slideChildrenContainer--shelf {
+  margin: 35px;
+}
+
+.sliderArrows--carousel{
+  color:rgb(255, 255, 255);
+  transform: translate(0px, 155px);
+}
+
+.sliderArrows{
+  color:rgb(255, 255, 255);
+}
+.paginationDot{
+  opacity:0;
+}
+.paginationDot--carousel{
+  opacity:1;
+}
+.paginationDot--carousel--isActive{
+    background-color:chartreuse;
+}
